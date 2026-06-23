@@ -1,31 +1,52 @@
 Rock Paper Scissors
 
-This is a simple Rock Paper Scissors game built with JavaScript as part of The Odin Project Foundations curriculum.
+A console-based Rock Paper Scissors game built with JavaScript as part of The Odin Project Foundations curriculum.
 
-Description
+Overview
 
-The game is played entirely in the browser console. The player chooses rock, paper, or scissors, and the computer randomly selects its choice. The game will be played over multiple rounds, and the final winner will be decided based on the score.
+This project allows a user to play Rock Paper Scissors against the computer directly through the browser console. The game consists of five rounds, tracks the score, announces the winner, and provides an option to play again.
 
-Skills Practiced
+Features
 
-* JavaScript functions
-* Variables
+* Random computer choice generation
+* User input using browser prompts
+* Case-insensitive player input
+* Input validation
+* Score tracking across rounds
+* Winner determination after five rounds
+* Replay functionality
+
+Technologies Used
+
+* HTML5
+* JavaScript (ES6)
+
+What I Practiced
+
+* Functions
+* Variables and constants
 * Conditional statements
-* User input with prompt
-* Random selection with Math.random
-* Console logging
-* Git and GitHub workflow
+* Loops
+* User input handling
+* String manipulation
+* Random number generation with Math.random()
+* Program decomposition and code organization
 
-Project Goals
+How to Run
 
-* Set up a basic HTML and JavaScript project structure
-* Link an external JavaScript file to an HTML file
-* Write logic for the computer’s choice
-* Write logic for the human player’s choice
-* Track the score
-* Play multiple rounds
-* Declare the final winner
+1. Clone the repository.
+2. Open index.html in your browser.
+3. Open the browser’s Developer Tools Console.
+4. Follow the prompts to play the game.
 
-Status
+Future Improvements
 
-In progress.
+* Add a graphical user interface (GUI)
+* Replace prompts with buttons and event listeners
+* Display scores directly on the webpage
+* Add animations and styling
+* Refactor game logic into reusable modules
+
+Acknowledgments
+
+Built as part of The Odin Project Foundations course.
